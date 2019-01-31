@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="APIProject">
+
+	<test name="GetComments">
+		<classes>
+			<class name="com.assignment.opus.getComments" />
+		</classes>
+	</test>
+
+	<test name="GetPosts">
+		<classes>
+			<class name="com.assignment.opus.getPosts" />
+		</classes>
+	</test>
+
+	<test name="GetUsers">
+		<classes>
+			<class name="com.assignment.opus.getUsers" />
+		</classes>
+	</test>
+
+	<test name="PostComments">
+		<classes>
+			<class name="com.assignment.opus.postComments" />
+		</classes>
+	</test>
+
+	<test name="TestPosts">
+		<classes>
+			<class name="com.assignment.opus.testPosts" />
+		</classes>
+	</test>
+
+	<test name="PostUsers">
+		<classes>
+			<class name="com.assignment.opus.postUsers" />
+		</classes>
+	</test>
+	
+	<test name="PutComments">
+		<classes>
+			<class name="com.assignment.opus.putComments" />
+		</classes>
+	</test>
+	
+	<test name="PutUsers">
+		<classes>
+			<class name="com.assignment.opus.putUsers" />
+		</classes>
+	</test>
+	
+	<test name="PutTestPosts">
+		<classes>
+			<class name="com.assignment.opus.puttestPosts" />
+		</classes>
+	</test>
+	
+</suite>

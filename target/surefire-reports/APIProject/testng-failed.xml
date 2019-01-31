@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [APIProject]">
+  <test thread-count="5" verbose="0" name="PostComments(failed)">
+    <classes>
+      <class name="com.assignment.opus.postComments">
+        <methods>
+          <include name="commentPost"/>
+        </methods>
+      </class> <!-- com.assignment.opus.postComments -->
+    </classes>
+  </test> <!-- PostComments(failed) -->
+  <test thread-count="5" verbose="0" name="TestPosts(failed)">
+    <classes>
+      <class name="com.assignment.opus.testPosts">
+        <methods>
+          <include name="postTest"/>
+        </methods>
+      </class> <!-- com.assignment.opus.testPosts -->
+    </classes>
+  </test> <!-- TestPosts(failed) -->
+  <test thread-count="5" verbose="0" name="PostUsers(failed)">
+    <classes>
+      <class name="com.assignment.opus.postUsers">
+        <methods>
+          <include name="userPost"/>
+        </methods>
+      </class> <!-- com.assignment.opus.postUsers -->
+    </classes>
+  </test> <!-- PostUsers(failed) -->
+</suite> <!-- Failed suite [APIProject] -->

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="APIProject" duration-ms="9254" started-at="2019-01-30T17:34:45Z" finished-at="2019-01-30T17:34:55Z">
+    <groups>
+    </groups>
+    <test name="GetComments" duration-ms="4198" started-at="2019-01-30T17:34:45Z" finished-at="2019-01-30T17:34:50Z">
+      <class name="com.assignment.opus.getComments">
+        <test-method status="PASS" signature="getcommentsDetails()[pri:0, instance:com.assignment.opus.getComments@7e0ea639]" name="getcommentsDetails" duration-ms="4170" started-at="2019-01-30T17:34:45Z" finished-at="2019-01-30T17:34:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcommentsDetails -->
+      </class> <!-- com.assignment.opus.getComments -->
+    </test> <!-- GetComments -->
+    <test name="GetPosts" duration-ms="1108" started-at="2019-01-30T17:34:50Z" finished-at="2019-01-30T17:34:51Z">
+      <class name="com.assignment.opus.getPosts">
+        <test-method status="PASS" signature="getpostsDetails()[pri:0, instance:com.assignment.opus.getPosts@6b2fad11]" name="getpostsDetails" duration-ms="1104" started-at="2019-01-30T17:34:50Z" finished-at="2019-01-30T17:34:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getpostsDetails -->
+      </class> <!-- com.assignment.opus.getPosts -->
+    </test> <!-- GetPosts -->
+    <test name="GetUsers" duration-ms="861" started-at="2019-01-30T17:34:51Z" finished-at="2019-01-30T17:34:52Z">
+      <class name="com.assignment.opus.getUsers">
+        <test-method status="PASS" signature="getusersDetails()[pri:0, instance:com.assignment.opus.getUsers@26ba2a48]" name="getusersDetails" duration-ms="861" started-at="2019-01-30T17:34:51Z" finished-at="2019-01-30T17:34:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getusersDetails -->
+      </class> <!-- com.assignment.opus.getUsers -->
+    </test> <!-- GetUsers -->
+    <test name="PostComments" duration-ms="878" started-at="2019-01-30T17:34:52Z" finished-at="2019-01-30T17:34:53Z">
+      <class name="com.assignment.opus.postComments">
+        <test-method status="PASS" signature="commentPost()[pri:0, instance:com.assignment.opus.postComments@735f7ae5]" name="commentPost" duration-ms="874" started-at="2019-01-30T17:34:52Z" finished-at="2019-01-30T17:34:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commentPost -->
+      </class> <!-- com.assignment.opus.postComments -->
+    </test> <!-- PostComments -->
+    <test name="TestPosts" duration-ms="856" started-at="2019-01-30T17:34:53Z" finished-at="2019-01-30T17:34:53Z">
+      <class name="com.assignment.opus.testPosts">
+        <test-method status="PASS" signature="postTest()[pri:0, instance:com.assignment.opus.testPosts@2ef9b8bc]" name="postTest" duration-ms="856" started-at="2019-01-30T17:34:53Z" finished-at="2019-01-30T17:34:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+      </class> <!-- com.assignment.opus.testPosts -->
+    </test> <!-- TestPosts -->
+    <test name="PostUsers" duration-ms="1086" started-at="2019-01-30T17:34:54Z" finished-at="2019-01-30T17:34:55Z">
+      <class name="com.assignment.opus.postUsers">
+        <test-method status="PASS" signature="userPost()[pri:0, instance:com.assignment.opus.postUsers@614c5515]" name="userPost" duration-ms="1082" started-at="2019-01-30T17:34:54Z" finished-at="2019-01-30T17:34:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userPost -->
+      </class> <!-- com.assignment.opus.postUsers -->
+    </test> <!-- PostUsers -->
+  </suite> <!-- APIProject -->
+</testng-results>

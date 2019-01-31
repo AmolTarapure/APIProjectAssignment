@@ -1,0 +1,6 @@
+com\assignment\opus\getPosts.class
+com\assignment\opus\getUsers.class
+com\assignment\opus\postComments.class
+com\assignment\opus\postUsers.class
+com\assignment\opus\testPosts.class
+com\assignment\opus\getComments.class
